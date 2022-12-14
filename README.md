@@ -1,6 +1,8 @@
 # Build a Product Landing Page
 
 ## Instructions:
+### Objective: Build an app that is functionally similar to the demo GIF below.
+![demo gif](images/product_landing_page_demo.gif)
 
 ### User Stories:
 
