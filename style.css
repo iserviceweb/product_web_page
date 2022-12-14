@@ -24,11 +24,33 @@ a {
   text-decoration: none;
 }
 
+.main_title{
+  font-size: 5vh;
+  color:#eee;
+  text-shadow:4px 5px 15px rgba(18, 239, 62, 0.18) ;
+}
+.section_titles{
+  display: flex;
+  justify-content: center;
+  padding:0.5em;
+  margin-bottom:30px;
+  text-decoration: underline;
+}
+.contain_title{
+display: block;
+}
+
+.title_contained{
+display:block !important;
+}
+
+
 .container {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
+
 
 .btn {
   padding: 0 20px;
@@ -55,8 +77,9 @@ header {
   width: 100vw;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);
   border-bottom: 1px solid black;
+  
 }
 
 section {
@@ -138,29 +161,44 @@ nav>ul {
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: 600px;
+  width:100%;
+  margin: 75px 0 0 0;
+  background-image: url("https://www.trustedreviews.com/wp-content/uploads/sites/54/2018/09/RXV06632-920x613.jpg");
+  background-size: cover;
+}
+#form_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   height: 200px;
-  margin-top: 50px;
+  width:100%;
+  padding:1em;
+  margin: 75px 0 0 0;
+  background-size: cover;
 }
 
-#hero>h2 {
+#form_section >h2 {
   margin-bottom: 20px;
   margin-top: 20px;
   word-wrap: break-word;
 }
 
-#hero input[type="text"] {
+#form_section input[type="text"] {
   max-width: 275px;
   /* width: 100%; */
   padding: 5px;
 }
-#hero input[type="email"] {
+#form_section input[type="email"] {
   max-width: 275px;
   /* width: 100%; */
   padding: 5px;
 }
 
 
-#hero input[type="submit"] {
+#form_section input[type="submit"] {
   max-width: 150px;
   width: 100%;
   height: 30px;
@@ -169,7 +207,7 @@ nav>ul {
   background-color: #86f68e;
 }
 
-#hero input[type="submit"]:hover {
+#form_section input[type="submit"]:hover {
   background-color: #86f68e;
   transition: background-color 1s;
 }
@@ -236,10 +274,11 @@ nav>ul {
 }
 
 #pricing {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 .product {
