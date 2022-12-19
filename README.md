@@ -2,7 +2,7 @@
 
 ## Instructions:
 ### Objective: Build an app that is functionally similar to the demo GIF below.
-![demo gif](images/product_web_page_demo.gif)
+![demo gif](product_web_page_demo.gif)
 
 ### User Stories:
 
